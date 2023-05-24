@@ -1,13 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='latent-diffusion',
+    name='lvdm',
     version='0.0.1',
-    description='',
+    description='generic video generation models',
     packages=find_packages(),
-    install_requires=[
-        'torch',
-        'numpy',
-        'tqdm',
-    ],
+    install_requires=[],
 )
